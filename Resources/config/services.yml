@@ -1,0 +1,9 @@
+services:
+    lamarciana.html5formtypes.type.tel:
+            class: LaMarciana\HTML5FormTypesBundle\Form\Type\TelType
+            tags:
+                - { name: form.type, alias: tel}
+    lamarciana.html5formtypes.type.range:
+            class: LaMarciana\HTML5FormTypesBundle\Form\Type\RangeType
+            tags:
+                - { name: form.type, alias: range}
